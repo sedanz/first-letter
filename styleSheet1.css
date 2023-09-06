@@ -472,6 +472,42 @@ body{
     }
   }
 
+  @media only screen and (max-width:500px) {
+    .photo-frame{
+      top: 70em;
+      left: 10vw;
+    }
+
+    .main {
+      height: 92em;
+    }
+
+    .console-container {
+      font-size: 2em;
+      /* margin-top: -2em; */
+      margin-left: -1.5em;
+      width: 10em;
+    }
+  }
+
+  @media only screen and (max-width:455px) {
+    .photo-frame{
+      top: 75em;
+      left: -.5em;
+    }
+
+    .main {
+      height: 97em;
+    }
+
+    .console-container {
+      font-size: 2em;
+      /* margin-top: -2em; */
+      margin-left: -1.5em;
+      width: 8em;
+    }
+  }
+
   .space{
     height: 20em;
     width: 100%;
