@@ -2,23 +2,22 @@
 
 body {
   background: #111111dc;
-  background-image: url('tebg.png');
+  background-image: url('img/tebg.png');
   margin: 0;
 }
 .hidden {
   opacity:0;
 }
 .console-container {
- 
   font-family:Khula;
-  margin: auto;
   font-size:4em;
   text-align:center;
   height:200px;
-  width:600px;
+  width:100%;
   display:block;
   position:relative;
   color:white;
+  /* background-color: #111; */
   top:0;
   bottom:0;
   left:0;
@@ -39,7 +38,7 @@ body {
     width: 100%;
 }
 .contenedor2{
-    background-image: url('tebg.png');
+    background-image: url('img/tebg.png');
     /* background: #ffffff; */
     height: 70vh;
     width: 100%;
@@ -136,7 +135,7 @@ body{
   .layer {
       background-color: rgba(248, 247, 216, 0.9);
       position: absolute;
-      background-image: url("water-park.jpg");
+      background-image: url("img/water-park.jpg");
       background-size: 13.4em;
       background-repeat: no-repeat;
       top: 0;
@@ -448,6 +447,11 @@ body{
     .main {
       height: 81em;
     }
+
+    .console-container {
+      font-size: 3em;
+      width: 8em;
+    }
   }
 
   @media only screen and (max-width:550px) {
@@ -458,6 +462,13 @@ body{
 
     .main {
       height: 86em;
+    }
+
+    .console-container {
+      font-size: 2em;
+      /* margin-top: -2em; */
+      margin-left: -1.5em;
+      width: 8em;
     }
   }
 
