@@ -2,7 +2,7 @@
 
 body {
   background: #111111dc;
-  background-image: url('img/tebg.png');
+  background-image: url('tebg.png');
   margin: 0;
 }
 .hidden {
@@ -39,7 +39,7 @@ body {
     width: 100%;
 }
 .contenedor2{
-    background-image: url('img/tebg.png');
+    background-image: url('tebg.png');
     /* background: #ffffff; */
     height: 70vh;
     width: 100%;
@@ -136,7 +136,7 @@ body{
   .layer {
       background-color: rgba(248, 247, 216, 0.9);
       position: absolute;
-      background-image: url("img/water-park.jpg");
+      background-image: url("water-park.jpg");
       background-size: 13.4em;
       background-repeat: no-repeat;
       top: 0;
