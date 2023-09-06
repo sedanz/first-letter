@@ -135,7 +135,7 @@ body{
   .layer {
       background-color: rgba(248, 247, 216, 0.9);
       position: absolute;
-      background-image: url("img/water-park.jpg");
+      background-image: url("water-park.jpg");
       background-size: 13.4em;
       background-repeat: no-repeat;
       top: 0;
